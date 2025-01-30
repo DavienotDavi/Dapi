@@ -1,0 +1,50 @@
+{
+    box-sizing: border-box;
+}
+
+.textfield {
+    width: 300px;
+    height: 40px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #5d738b;
+    border-radius: 6px;
+}
+
+.button {
+    width: 100px;
+    height: 40px;
+    background-color: #2d6a4f;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.button:hover {
+    background-color: #1b4332;
+}
+
+.list-item {
+    padding: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+.delete-button {
+    background-color: #f77f00;
+    color: white;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.delete-button:hover {
+    background-color: #d66a00;
+}

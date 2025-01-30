@@ -1,0 +1,45 @@
+<!-- Create a todo list -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Todo List</h1>
+    <div class="container">
+      <div class="input-container">
+        <input
+          type="text"
+          placeholder="Enter a task"
+          id="tf-input"
+          class="textfield"
+        />
+        <button onclick="addTask()" class="button">Add Task</button>
+      </div>
+      <div>
+        <ul id="task-container">
+          <li id="4344" class="list-item">
+            Task 1
+            <button onclick="editTask('4344')" class="edit-button">Edit</button>
+            <button onclick="deleteTask('4344')" class="delete-button">Delete</button>
+          </li>
+          <li id="4345" class="list-item">
+            Task 2
+            <button onclick="editTask('4345')" class="edit-button">Edit</button>
+            <button onclick="deleteTask('4345')" class="delete-button">Delete</button>
+          </li>
+          <li id="4348" class="list-item">
+            Task 3
+            <button onclick="editTask('4348')" class="edit-button">Edit</button>
+            <button onclick="deleteTask('4348')" class="delete-button">Delete</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</html>
